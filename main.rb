@@ -1,11 +1,26 @@
 require './user'
+require './question'
+require './game'
 
-user1 = User.new("Michel")
-user2 = User.new("Lijo")
+game = Game.new
+game.play
 
-puts "user1"
-p user1
+#user1 = User.new("Michel")
+#user2 = User.new("Lijo")
+#
+#question = Question.new
+#
+#puts "question"
+#p question 
+#question.get_answer
+#puts question.validate_answer
 
-puts "=============="
-puts "user2"
-p user2
+
+
+#puts "user1"
+#p user1
+#
+#puts "=============="
+#puts "user2"
+#p user2
+

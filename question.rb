@@ -9,6 +9,7 @@ class Question
   end
 
   def get_answer
+    print ">"
     @answer = gets.chomp()
   end
 
